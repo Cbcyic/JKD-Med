@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<title>最新动态</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/tab.js"></script>
+<script type="text/javascript" src="js/pjyuan.js"></script>
+<script type="text/javascript">
+	var newsId = "12";
+	var datas = {
+			"rows":
+					[						
+						{  
+							"id":9,  
+							"title":"自研软件获得计算机软件著作权证书",  
+							"content":"<p><span>2014年11月,首款自行研发的商品软件获得计算机软件著作权证书，产品服务于中船重工系统。</span></p>"  
+						},  
+						{  
+							"id":10,  
+							"title":"京盛装备技术公司获得《信息系统集成资质》证书",  
+							"content":"<p><span>2016年11月，合作伙伴大连京盛装备技术公司以高分通过有关部门审核，获得《信息系统集成资质》证书，拥有了从事软件开发和系统集成资质。</span></p>"  
+						},  						
+						{  
+							"id":11,  
+							"title":"软件签约中航工业系统",  
+							"content":"<p> <span>2017年12月，第10个自行开发的软件产品成功签约，服务扩展到中航工业系统。</span></p>"  
+						},
+						{  
+							"id":12,  
+							"title":"网站3.0版上线啦",  
+							"content":"<p> <span>2024年6月，网站3.0版上线啦!</span></p>"  
+						}
+					]
+		};
+	$(function()
+	{
+		newsId = getParam("newsId");
+		$.each(datas.rows, function(i ,news){
+			if(news["id"] == newsId)
+			{
+				$("#newsTitle").text(news['title']);
+				$("#newsDesc").html(news['content']);
+				return false;
+			}
+		});
+	});
+	
+	function getParam(paramName) 
+	{
+		var paramValue = "";
+		isFound = false;
+		if (this.location.search.indexOf("?") == 0 && this.location.search.indexOf("=") > 1) {
+			arrSource = unescape(this.location.search).substring(1, this.location.search.length).split("&");
+			i = 0;
+			while (i < arrSource.length && !isFound) {
+				if (arrSource[i].indexOf("=") > 0) {
+					if (arrSource[i].split("=")[0].toLowerCase() == paramName.toLowerCase()) {
+						paramValue = arrSource[i].split("=")[1];
+						isFound = true;
+					}
+				}
+				i++;
+			}
+		}
+		return paramValue;
+	}
+</script>
+</head>
+<body>
+
+
+
+<div class="top">
+  <div class="top_bar">
+    <div class="logo"></div>
+    <div></div>
+    <div class="clear"></div>
+  </div>
+  <div class="nav">
+    <ul>
+     			<li><a href="index.html">首页</a></li>
+				<li><a href="news.html">最新动态</a></li>
+				<li><a href="business.html">主要研究</a></li>
+				<li><a href="product.html">成果&试用</a></li>
+				<li><a href="culture.html">关于我们</a></li>
+				<li><a href="telus.html">联系我们</a></li>
+    </ul>
+  </div>
+</div>
+<div class="content">
+  <div class="main">
+    <div class="banner2"><img src="img/js_news.jpg" width="100%" height="100"></div>
+    <div class="bar"><b>最新动态</b><span>当前位置：<a href="index.html">首页 &gt;</a><a href="news.html">最新动态</a></span></div>
+    <div class="left">
+      <div class="main_content">
+        <h2 class="title4" id="newsTitle">网站3.0版上线啦</h2>
+        <div class="title5"></div>
+       		<div id="newsDesc"><p> <span>2024年6月&nbsp; 网站3.0版上线啦!</span></p></div>
+      </div>
+    </div>
+    <div class="right">
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="foot">
+<div class="foot_nav"><a href="culture.html">&nbsp;&nbsp;关于我们</a> </div>
+		<div class="foot_cen">陕ICP备18014183号</div>
+		<div class="foot_bar">
+			<img src="img/js_logo_1.png" height="42"
+				align="left"></img>©Copyright © 长大计算机研究&nbsp;&nbsp;&nbsp;&nbsp;<br>
+			All Rights Reserved.
+		</div>
+		<div class="clear"></div>
+</div>
+
+</body></html>

@@ -1,0 +1,35 @@
+{
+	"rows":
+			[
+				{  
+					"id":1,  
+				    "title":"软件开发业务",  
+				    "content":"<p><span style='font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 15px;line-height:17pt;'>&nbsp; &nbsp; &nbsp; &nbsp;熟悉国家BMB系列保密技术标准和武器装备保密资格认证标准，擅长架构既符合保密管理要求和技术标准又能充分利用用户网络和硬件资源的综合管理办公平台，可根据用户需求定制开发各类涉密信息管理软件和非涉密软件。</span></p>" 
+				},
+				{  
+				    "id":2,  
+				    "title":"系统集成业务",  
+				    "content":"<p><span style='font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 15px;line-height:17pt;'>&nbsp; &nbsp; &nbsp;包括涉密信息系统集成和非涉密信息系统集成以及网络安全集成，在综合布线工程、机房系统工程、安防系统工程、网络系统工程、视频会议工程、网络安全集成等方面具有丰富的案例积累。</span></p>"  
+				},
+				{  
+				    "id":3,  
+				    "title":"综合布线工程",  
+				    "content":"<p><span style='font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 15px;line-height:17pt;'>&nbsp; &nbsp; &nbsp; &nbsp;包括涉密网综合布线方案和非涉密网综合布线方案，非涉密布线依据“综合布线系统工程设计规范”，涉密网布线依据“涉及国家秘密的信息系统集成技术要求”和“综合布线系统工程设计规范”，能够高标准进行强电布线、弱电布线（屏蔽与非屏蔽）、控制信号布线等工程实施与售后服务。</span></p>"  
+				},
+				{  
+				    "id":4,  
+				    "title":"机房系统工程",  
+				    "content":"<p><span style='font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 15px;line-height:17pt;'>&nbsp; &nbsp; &nbsp; &nbsp;包含屏蔽机房与非屏蔽机房建设，熟悉机房装修工程、新风系统、空调系统、UPS系统、机房气体消防系统、机房安防系统、机房布线系统、机房环境监测、照明系统、接地系统等；进行机房屏蔽壳体建设、壳体的防震处理、屏蔽机房的滤波与波导处理、壳体接地系统等项目实施。</span></p>"  
+				},  
+				{  
+				    "id":5,  
+				    "title":"安防系统工程",  
+				    "content":"<p><span style='font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 15px;line-height:17pt;'>&nbsp; &nbsp; &nbsp; &nbsp;依据涉密场所和非涉密场所的特殊需求，提供全套安防系统解决方案，包括视频安防监控系统、出入口控制系统和入侵报警系统。</span></p>"  
+				},  
+				{  
+				    "id":6,  
+				    "title":"视频会议工程",  
+				    "content":"<p><span style='font-family: 微软雅黑, &#39;Microsoft YaHei&#39;; font-size: 15px;line-height:17pt;'>&nbsp; &nbsp; &nbsp; &nbsp;能够提供全套视频会议解决方案，包括多媒体会议室、建筑声学、电气声学、照明系统、视频会议供电系统、大屏显示、中控系统、会议系统、软件或硬件远程视频会议工程的设计施工。</span></p>"  
+				}
+			]
+}

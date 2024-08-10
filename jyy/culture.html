@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>关于我们</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="js/pjyuan.js"></script>
+<style type="text/css">
+	
+</style>
+<script type="text/javascript">
+	var tips = ["简介",  "文化"];
+	$(document).ready(function() {
+		$("div.showPage").hide();
+		$("div.showPage").eq(0).show();
+		$("#showTitle").text(tips[0]);
+		
+	})
+	function openPage(flag)
+	{
+		$("div.showPage").hide();
+		$("div.showPage").eq(flag).show();
+		$("#showTitle").text(tips[flag]);
+	}
+</script>
+</head>
+<body>
+
+<div class="top">
+  <div class="top_bar">
+    <div class="logo"></div>
+    <div></div>
+    <div class="clear"></div>
+  </div>
+  <div class="nav">
+    <ul>
+	 <li><a href="index.html">首页</a></li>
+				<li><a href="news.html">最新动态</a></li>
+				<li><a href="business.html">主要研究</a></li>
+				<li><a href="product.html">成果&试用</a></li>
+				<li><a href="culture.html">关于我们</a></li>
+				<li><a href="telus.html">联系我们</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="content">
+   <div class="main">
+  <div class="banner2"><img src="img/js_cp.jpg" width="1000" height="100"></div>
+   <div class="bar"><b>关于我们</b><span>当前位置：<a href="index.html">首页 &gt;</a><a href="culture.html">关于我们</a></span></div>
+   <!--div class="left1">
+     	<div class="box7">
+		<!-- <h3 class="bar5">软件使用</h3->
+		<ul class="menu6">
+			<li><a href="#" onclick="openPage(0)">简介</a></li>
+			<!--li><a href="#" onclick="openPage(1)">机构</a></li>
+			<li><a href="#" onclick="openPage(2)">文化</a></li->
+		</ul>
+		</div>
+   </div-->
+   <div class="right_wm">
+   		<div class="wenti_wm" style="margin: 0 auto;">
+			<!--dl>
+				<dt class="original" id="showTitle" style="font-size:14px;">简介</dt>
+			</dl-->
+			<div class="showPage" style="display: block;">
+				<p style="text-indent:32px;line-height:150%">
+				    <span style="line-height: 150%; font-size: 15px; font-family: 微软雅黑, 'Microsoft YaHei';line-height:18pt;">长大计算机研究由长安大学数名教授及其科研团队主导，致力于计算机软硬件技术科研、开发、服务、应用，现有成员30余名，均为研究生以上学历。其中博士、硕士研究生20余名，副教授、教授6名，高级工程师1名，享受国务院特殊津贴专家1名。团队拥有多名深耕计算机领域十余年的资深技术专家，在计算机软硬件研究开发和网络系统集成方面具有独特的见解和丰富的经验。</span>
+				</p>
+				<p style="text-indent:32px;line-height:150%">
+				    <span style="line-height: 150%; font-size: 15px; font-family: 微软雅黑, 'Microsoft YaHei';line-height:18pt;">多年以来，聚焦于研究和提供符合国家要求的信息安全服务，从事计算机软件研发和网络信息系统集成，提供安全综合解决方案。</span>
+				</p>
+				<p style="text-indent:32px;line-height:150%">
+				    <span style="line-height: 150%; font-size: 15px; font-family: 微软雅黑, 'Microsoft YaHei';line-height:18pt;">我们始终坚守以前沿科技研究、持续技术创新为宗旨，依托团队雄厚的人才和技术储备，在业界赢得了广泛的赞誉。通过控股参股、合作代理等多种形式，我们形成了包括大连京盛装备技术有限公司、新丝路招投标代理公司、美国京盛贸易有限公司、陕西誉达智能科技有限公司、大连恒宜科技有限公司、西安天下安保智能科技有限公司、西安招招鲜电子商务有限公司等多个实体在内的稳定的合作集团。</span>
+				</p>
+				<p>
+				    <span style="font-size: 15px; font-family: 微软雅黑, 'Microsoft YaHei';line-height:18pt;">&nbsp; &nbsp; &nbsp; &nbsp; 未来，我们将继续致力于引领信息安全服务行业的发展，应对中国信息化浪潮所带来的新挑战。</span>
+				</p>
+				<p>
+				    <br>
+				</p>
+	     </div>
+	     <div class="at3 culture showPage" style="display: none;">
+			<div style="background:url(img/org.png) no-repeat;">
+				<img src="img/org.png" class="fr" style="width:96%;">
+			</div>
+	     </div>
+	     <div class="at3 culture showPage" style="display: none;">
+			<div style="background:url(img/cultrue.png) no-repeat;">
+				<img src="img/cultrue.png" class="fr" style="width:98%;">
+			</div>
+	     </div>
+		</div>
+   </div>
+   <div class="clear"></div> 
+  </div>
+</div>
+<div class="foot">
+  <div class="foot_nav"><a href="culture.html">&nbsp;&nbsp;关于我们</a> </div>
+		<div class="foot_cen">陕ICP备18014183号</div>
+		<div class="foot_bar">
+			<img src="img/js_logo_1.png" height="42"
+				align="left"></img>©Copyright © 长大计算机研究&nbsp;&nbsp;&nbsp;&nbsp;<br>
+			All Rights Reserved.
+		</div>
+		<div class="clear"></div>
+</div>
+
+</body></html>

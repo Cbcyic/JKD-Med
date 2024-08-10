@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on 吉康迪医疗|JKD</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on 吉康迪医疗|JKD</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 03 May 2023 21:29:20 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>要想活得久，还得管住嘴！</title>
+      <link>http://localhost:1313/blog/2023/05/03/%E7%BD%91%E7%AB%99-%E5%81%A5%E5%BA%B7%E6%96%87%E5%BA%93%E5%86%85%E5%AE%B9-%E8%A6%81%E6%83%B3%E6%B4%BB%E5%BE%97%E4%B9%85/</link>
+      <pubDate>Wed, 03 May 2023 21:29:20 +0200</pubDate>
+      <guid>http://localhost:1313/blog/2023/05/03/%E7%BD%91%E7%AB%99-%E5%81%A5%E5%BA%B7%E6%96%87%E5%BA%93%E5%86%85%E5%AE%B9-%E8%A6%81%E6%83%B3%E6%B4%BB%E5%BE%97%E4%B9%85/</guid>
+      <description>&lt;p&gt;自古以来，人们便意识到热量限制的重要性。《黄帝内经》中有这样一句养生之道：食饮有节，起居有常，不妄作劳，故能形与神俱，而尽终其天年，度百岁乃去。东晋时期著名医生葛洪曾言，不欲极饥而食，食不过饱。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
